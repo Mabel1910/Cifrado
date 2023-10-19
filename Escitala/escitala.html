@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Escítala</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Escítala</h1>
+        <div id="controls">
+            <label for="numLados">Número de Lados del Cilindro:</label>
+            <input type="number" id="numLados" placeholder="Lados"><br>
+            <label for="numVueltas">Número de Vueltas:</label>
+            <input type="number" id="numVueltas" placeholder="Vueltas"><br>
+            <button id="calcular">Calcular</button>
+        </div>
+        <div id="inputArea">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea> <br>
+            <button id="cifrar">Cifrar</button> <br><br>
+            <button id="descifrar">Descifrar</button>
+        </div>
+        <div id="output">
+            <p>Resultado:</p>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="escitala.js"></script>
+</body>
+</html>
